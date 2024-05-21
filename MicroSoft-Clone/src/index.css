@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .footer-navigation{
+    @apply my-2 text-xs text-black/70 cursor-pointer hover:underline hover:text-black
+  }
+  .footer-privacy{
+    @apply text-xs text-black/60 hover:underline hover:text-black mx-1
+  }
+  .all-product-navigation{
+    @apply  my-5 text-sm text-black/70 cursor-pointer hover:underline hover:text-black
+    
+  }
+}
